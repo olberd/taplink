@@ -1,3 +1,70 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #F8F8F8;
+    padding: 15px;
+    font-family: "Inter", sans-serif;
+}
+.page-wrapper {
+    overflow: hidden;
+    max-width: 393px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px 18px -1px rgba(0, 0, 0, 0.25);
+    background: rgb(242, 240, 240);
+}
+.container {
+    max-width: 300px;
+    margin: auto;
+
+}
+header {
+    color: #F8F8F8;
+    padding-top: 40px;
+    padding-left: 74px;
+    padding-bottom: 215px;
+    border-radius: 0 0 90px 90px;
+    background: url(../img/header-bg.png) no-repeat center / cover;
+
+}
+.hello {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.hello-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.user {
+    margin-top: -79px;
+    text-align: center;
+    width: 300px;
+    /*height: 100px;*/
+    /*top: 243px;*/
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-bottom: 20px;
+
+}
+.user-avatar {
+    margin-top: -69px;
+
+}
+.user-name {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+
+}
+.user-description {
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
